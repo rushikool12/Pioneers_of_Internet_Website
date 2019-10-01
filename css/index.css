@@ -1,0 +1,111 @@
+body {
+	background: #FFF55B;
+	margin: 2%;
+	padding: 1em;
+	font-family: georgia;
+}
+
+header {
+	text-align: center;
+}
+
+.logo {
+	float: right;
+}
+nav ul { 
+padding: 0em;
+margin: 0;
+list-style-type: none;
+float: left;
+width: 100%;
+text-align: center;
+color: #fff;
+background-color: #036;
+}
+nav ul li { display: inline; }
+nav ul li a
+{
+float: left;
+width: 7em;
+color: #fff;
+background-color: #036;
+padding: 0.2em 1em;
+text-decoration: none;
+border-right: 1px solid #fff;
+}
+nav ul li a:hover
+{
+background-color: #369;
+color: #fff;
+}
+h2 {
+		padding: 0.5em;
+		font-style: italic;
+}
+.right{
+	float: right;
+	clear: both;
+	margin: 1%;
+}
+.internet {
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+.none {
+	float: left;
+	clear: both;
+}
+.one {
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+.onone {
+	float: right;
+}
+.two {
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+}
+@media only screen and (max-width: 570px) {
+	body { font-size: 120%; }
+	nav ul li a{
+			padding-bottom: 0.2em;
+			margin-right: 0.5%;
+			list-style-type: none;
+			float: left;
+			width: 100%;
+			text-align: center; }
+	.right img {
+		width: 100%;
+		height: auto;
+		
+	}
+	.none img {
+		width: 100%;
+		height: auto;
+		
+	}
+	.onone img {
+		width: 100%;
+		height: auto;
+		
+	}
+		
+}
+.imp {
+	font-style: italic;
+	font-weight: bold;
+}
+.bd {
+	color: red;
+	background: white;
+	font-weight: bold;
+	font-style: italic;
+}
+.start {
+	font-size: 150%;
+	font-weight: bold;
+}
